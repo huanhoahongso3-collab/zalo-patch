@@ -470,6 +470,9 @@ public final class SectionActivity {
             if (Tweaks.KEY_HIDE_REACTION_ROW.equals(key)) {
                 return new String[]{"messages.reaction_row"};
             }
+            if (Tweaks.KEY_INCREASE_BACKUP_FREQUENCY.equals(key)) {
+                return new String[]{"messages.backup_frequency"};
+            }
             if (Tweaks.KEY_CALL_RECORDING_PROBE.equals(key)) {
                 return new String[]{"calls.recording_probe.lifecycle",
                         "calls.recording_probe.stream_registration", "calls.recording_probe.audio"};

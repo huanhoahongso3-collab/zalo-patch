@@ -91,6 +91,8 @@
     <string name="zp_tweak_oa_chip_summary">Shows Official Account conversations.</string>
     <string name="zp_tweak_hide_reaction_row">Hide reaction row</string>
     <string name="zp_tweak_hide_reaction_row_summary">Keeps the action items in the long-press menu.</string>
+    <string name="zp_tweak_increase_backup_frequency">Increase backup sync frequency</string>
+    <string name="zp_tweak_increase_backup_frequency_summary">Runs the local message-database backup every 4 hours instead of once a day.</string>
     <string name="zp_tweak_auto_record_calls">Record call audio automatically</string>
     <string name="zp_tweak_auto_record_calls_summary">Saves completed Zalo calls as M4A files.</string>
     <string name="zp_tweak_recording_notifications">Recording notifications</string>
@@ -119,6 +121,7 @@
     <string name="zp_group_in_app_ads">In-app ads</string>
     <string name="zp_group_me_services">Me screen services</string>
     <string name="zp_group_message_rendering">Message rendering</string>
+    <string name="zp_group_backup_sync">Backup sync</string>
     <string name="zp_group_call_recording">Call recording</string>
     <string name="zp_group_call_diagnostics">Call diagnostics</string>
     <string name="zp_group_developer_tools">Tools</string>

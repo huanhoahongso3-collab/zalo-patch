@@ -97,6 +97,12 @@ final class TweakHookInfo {
             case Tweaks.KEY_HIDE_REACTION_ROW:
                 path = "View#performLongClick() + PopupWindow/Dialog#show()";
                 break;
+            case Tweaks.KEY_INCREASE_BACKUP_FREQUENCY:
+                path = schema.string("symbols.chat.backup_periodic_builder_class", "<periodic builder>")
+                        + "#<init>(Class,long,TimeUnit) filtered to "
+                        + schema.string("symbols.chat.backup_worker_class",
+                                "com.zing.zalo.db.backup.BackupRestorableDbWorker");
+                break;
             case Tweaks.KEY_AUTO_RECORD_CALLS:
                 path = "PeerJNI#zrtc_peer_start_record_audio() + CallCallback callbacks";
                 break;

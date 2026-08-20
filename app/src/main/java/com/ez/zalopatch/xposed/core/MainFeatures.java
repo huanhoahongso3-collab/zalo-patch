@@ -5,6 +5,7 @@ import com.ez.zalopatch.HookConfig;
 import com.ez.zalopatch.SymbolSchema;
 import com.ez.zalopatch.Tweaks;
 import com.ez.zalopatch.ZaloArtifactState;
+import com.ez.zalopatch.xposed.features.BackupFrequencyFeature;
 import com.ez.zalopatch.xposed.features.BottomTabsFeature;
 import com.ez.zalopatch.xposed.features.CallRecordingProbeFeature;
 import com.ez.zalopatch.xposed.features.CallRecordingFeature;
@@ -63,6 +64,7 @@ public final class MainFeatures {
                     preflight.zinstantMessage, preflight.reason(preflight.zinstantMessageErrors),
                     preflight.zinstantFeed, preflight.reason(preflight.zinstantFeedErrors)));
             features.add(new ChatFeature(classLoader));
+            features.add(new BackupFrequencyFeature(classLoader));
             features.add(new CallRecordingFeature(classLoader));
             features.add(new CallRecordingProbeFeature(classLoader));
         } else {

@@ -64,6 +64,8 @@
     <string name="zp_tweak_hide_zcloud_banner_summary">Ẩn banner zCloud phía trên Tin nhắn.</string>
     <string name="zp_tweak_hide_reaction_row">Ẩn thanh Bày tỏ cảm xúc</string>
     <string name="zp_tweak_hide_reaction_row_summary">Giữ các thao tác trong menu khi nhấn giữ.</string>
+    <string name="zp_tweak_increase_backup_frequency">Tăng tần suất sao lưu</string>
+    <string name="zp_tweak_increase_backup_frequency_summary">Sao lưu cơ sở dữ liệu tin nhắn mỗi 4 giờ thay vì mỗi ngày một lần.</string>
     <string name="zp_tweak_auto_record_calls">Tự động ghi âm cuộc gọi</string>
     <string name="zp_tweak_auto_record_calls_summary">Lưu bản ghi âm của cuộc gọi Zalo đã kết thúc thành file M4A.</string>
     <string name="zp_tweak_recording_notifications">Thông báo ghi âm</string>

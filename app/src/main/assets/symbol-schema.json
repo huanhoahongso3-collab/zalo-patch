@@ -816,6 +816,10 @@
           "messages.hide_reaction_row": {
             "title": "Hide reaction row",
             "summary": "Hide only emoji reactions in the long-press message popup while keeping action items."
+          },
+          "messages.increase_backup_frequency": {
+            "title": "Increase backup sync frequency",
+            "summary": "Runs the local message-database backup every 4 hours instead of once a day."
           }
         }
       },
@@ -972,7 +976,9 @@
             "😮",
             "😢",
             "😡"
-          ]
+          ],
+          "backup_periodic_builder_class": "c7.l0",
+          "backup_worker_class": "com.zing.zalo.db.backup.BackupRestorableDbWorker"
         },
         "bottom_tabs": {
           "legacy_state_class": "com.zing.zalo.ui.maintab.e",
