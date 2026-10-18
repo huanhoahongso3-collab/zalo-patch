@@ -35,7 +35,7 @@ public final class SymbolOctoberMaintenanceTest {
         String bundle = BundledSymbolSchemaJson.json();
         SymbolSchema.Active active = SymbolSchema.select(bundle, "Test", 261001905L);
         assertTrue(active.validation, active.valid);
-        assertEquals(32, active.schemaRevision);
+        assertEquals(33, active.schemaRevision);
         assertEquals(261001905L, active.minCode);
         assertEquals(261001905L, active.maxCode);
         assertEquals("2fe8d3f2bbd3fc923bcf62e4b519e50661176ed79a51aac01be8b39c8ef3994c",
