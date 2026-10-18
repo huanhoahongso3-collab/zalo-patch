@@ -1,6 +1,6 @@
 {
   "bundle_version": 1,
-  "bundle_revision": 10,
+  "bundle_revision": 11,
   "zalo_package": "com.zing.zalo",
   "profiles": [
     {
@@ -1832,7 +1832,7 @@
     },
     {
       "schema_version": 1,
-      "schema_revision": 32,
+      "schema_revision": 33,
       "zalo_package": "com.zing.zalo",
       "zalo_version": {
         "min_code": 261001905,
@@ -2047,6 +2047,12 @@
         "chat": {
           "reaction_long_press_method": "j",
           "reaction_long_press_armed_field": "H5",
+          "custom_reaction_send_class": "eg0.a0",
+          "custom_reaction_send_method": "n",
+          "custom_reaction_factory_class": "h00.h",
+          "custom_reaction_factory_method": "a",
+          "custom_reaction_message_field": "e2",
+          "custom_reaction_dismiss_method": "J5",
           "send_seen_manager_class": "eg0.k0",
           "seen_ack_class": "e20.b",
           "seen_ack_type_field": "a",

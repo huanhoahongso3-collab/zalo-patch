@@ -114,6 +114,8 @@
     <string name="zp_tweak_oa_chip_summary">Shows Official Account conversations.</string>
     <string name="zp_tweak_hide_reaction_row">Hide reaction row</string>
     <string name="zp_tweak_hide_reaction_row_summary">Keeps the action items in the long-press menu.</string>
+    <string name="zp_tweak_custom_reaction">Custom reactions</string>
+    <string name="zp_tweak_custom_reaction_summary">Adds a button to the reaction bar to send any emoji or short text as a reaction, like Zalo Web scripts. Others see it in their app.</string>
     <string name="zp_tweak_open_links_externally">Open links in system browser</string>
     <string name="zp_tweak_open_links_externally_summary">Tapped chat and feed links open in your default browser or app, skipping Zalo’s in-app browser and its redirect server. Zalo-owned links, including payment and bank-card actions, stay in-app.</string>
     <string name="zp_tweak_block_seen_status">Block seen status</string>

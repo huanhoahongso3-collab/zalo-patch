@@ -82,6 +82,8 @@
     <string name="zp_tweak_oa_chip_summary">Hiển thị các cuộc trò chuyện với Official Account.</string>
     <string name="zp_tweak_hide_reaction_row">Ẩn thanh Bày tỏ cảm xúc</string>
     <string name="zp_tweak_hide_reaction_row_summary">Giữ các thao tác trong menu khi nhấn giữ.</string>
+    <string name="zp_tweak_custom_reaction">Cảm xúc tùy chỉnh</string>
+    <string name="zp_tweak_custom_reaction_summary">Thêm nút vào thanh cảm xúc để gửi bất kỳ emoji hoặc chữ ngắn nào, giống script Zalo Web. Người khác thấy trên ứng dụng của họ.</string>
     <string name="zp_tweak_open_links_externally">Mở liên kết bằng trình duyệt hệ thống</string>
     <string name="zp_tweak_open_links_externally_summary">Liên kết trong trò chuyện và Nhật ký mở bằng trình duyệt hoặc ứng dụng mặc định, bỏ qua trình duyệt và máy chủ chuyển hướng của Zalo. Liên kết của Zalo, gồm các thao tác thanh toán và thẻ ngân hàng, vẫn mở trong Zalo.</string>
     <string name="zp_tweak_block_seen_status">Chặn trạng thái Đã xem</string>

@@ -91,8 +91,13 @@ final class TweakHookInfo {
             case Tweaks.KEY_HIDE_REACTION_ROW:
                 path = "View#performLongClick() + PopupWindow/Dialog#show()";
                 break;
+            case Tweaks.KEY_CUSTOM_REACTION:
+                path = schema.string("symbols.chat.custom_reaction_send_class", "<reaction sender>")
+                        + "#" + schema.string("symbols.chat.custom_reaction_send_method", "<send>")
+                        + "(reaction,message,int,boolean) + ReactionPickerInContextMenuView button";
+                break;
             case Tweaks.KEY_OPEN_LINKS_EXTERNALLY:
-                path = schema.string("symbols.webview.companion_class", "<webview dispatcher>")
+                path =schema.string("symbols.webview.companion_class", "<webview dispatcher>")
                         + "#" + schema.string("symbols.webview.open_dispatch_method", "<open dispatch>")
                         + "() + "
                         + schema.string("symbols.webview.zalo_web_view_class", "<webview>")

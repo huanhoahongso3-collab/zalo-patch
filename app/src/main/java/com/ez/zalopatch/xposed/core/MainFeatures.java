@@ -15,6 +15,7 @@ import com.ez.zalopatch.xposed.features.BottomTabsFeature;
 import com.ez.zalopatch.xposed.features.BackupPushFeature;
 import com.ez.zalopatch.xposed.features.AdtimaOfflineTrackingFeature;
 import com.ez.zalopatch.xposed.features.CallRecordingProbeFeature;
+import com.ez.zalopatch.xposed.features.CustomReactionFeature;
 import com.ez.zalopatch.xposed.features.CallRecordingFeature;
 import com.ez.zalopatch.xposed.features.ChatFeature;
 import com.ez.zalopatch.xposed.features.InboxFeature;
@@ -221,6 +222,7 @@ public final class MainFeatures {
                     pilot.adBindOverride, pilot.feedBindOverride));
             features.add(new ChatFeature(classLoader, preflight.chatReaction,
                     preflight.reason(preflight.chatReactionErrors)));
+            features.add(new CustomReactionFeature(classLoader));
             features.add(new ZcloudBannerFeature(classLoader));
             addPasscodeGrace(features, classLoader, preflight);
             addStatusPrivacy(features, classLoader, preflight);
