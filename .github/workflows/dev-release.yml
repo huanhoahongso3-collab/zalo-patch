@@ -27,8 +27,8 @@ jobs:
           distribution: temurin
           cache: gradle
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407 # v3
+      - name: Accept Android SDK licenses
+        run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses >/dev/null || true
 
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
